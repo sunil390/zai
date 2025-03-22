@@ -2,8 +2,8 @@
 
 ## LocalAI Examples
 
-1. git clone https://github.com/mudler/LocalAI
-2. cd LocalAI/examples/langchain-chroma
+1. https://github.com/mudler/LocalAI-examples.git
+2. cd LocalAI-examples/langchain-chroma
 3. wget https://huggingface.co/skeskinen/ggml/resolve/main/all-MiniLM-L6-v2/ggml-model-q4_0.bin -O models/bert
 4. wget https://gpt4all.io/models/ggml-gpt4all-j.bin -O models/ggml-gpt4all-j
 5. mv .env.example .env
