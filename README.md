@@ -2,6 +2,11 @@
 
 ## LocalAI Examples
 
+### 2025 AIO Model
+1. docker run -p 8080:8080 --gpus all --name local-ai -ti localai/localai:latest-aio-gpu-nvidia-cuda-11
+   
+### 2024 method
+
 1. https://github.com/mudler/LocalAI-examples.git
 2. cd LocalAI-examples/langchain-chroma
 3. wget https://huggingface.co/skeskinen/ggml/resolve/main/all-MiniLM-L6-v2/ggml-model-q4_0.bin -O models/bert
