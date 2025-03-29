@@ -2,6 +2,12 @@
 
 ## LocalAI Examples
 
+#Cleanup:
+
+1. docker system prune --all
+2. dockere ps
+3. 
+
 ### 2025 AIO Model
 1. docker run -p 8080:8080 --gpus all --name local-ai -ti localai/localai:latest-aio-gpu-nvidia-cuda-11
    
